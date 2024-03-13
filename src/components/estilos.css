@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+
+}
+.bienvenida h1{
+    font-size: 2em;
+    color:#a81212;
+}
+.bienvenida{
+    margin-left: 50px;
+}
+.imagen  img {
+    width: 80%;
+    height: auto;
+
+}
+.imagen{
+    display: flex;
+    justify-content: flex-end;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+.formulario input{
+    height: 30px;
+
+}
+.formulario button{
+    background-color: blue;
+    color: #f4eeee;
+    border-radius: 15px;
+    height: 30px;
+    margin:40px ;
+
+}
+.formulario  a{
+    text-decoration: none;
+    color: rgb(36, 3, 252);
+
+}
